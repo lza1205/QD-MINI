@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\FWLIB\inc;..\USER;..\HARDWARE;..\HARDWARE\delay;..\HARDWARE\sys;..\HARDWARE\timer;..\HARDWARE\usart;..\HARDWARE\gsm;..\HARDWARE\SysTick;..\HARDWARE\TIMER;..\HARDWARE\usart;..\include;..\HARDWARE\QIDI</IncludePath>
+              <IncludePath>..\CORE;..\FWLIB\inc;..\USER;..\HARDWARE;..\HARDWARE\delay;..\HARDWARE\sys;..\HARDWARE\timer;..\HARDWARE\usart;..\HARDWARE\gsm;..\HARDWARE\SysTick;..\HARDWARE\TIMER;..\HARDWARE\usart;..\include;..\HARDWARE\QIDI;..\HARDWARE\cjson</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -617,6 +617,21 @@
               <FileName>readme.txt</FileName>
               <FileType>5</FileType>
               <FilePath>..\DOC\readme.txt</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>cjson</GroupName>
+          <Files>
+            <File>
+              <FileName>cJSON.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\cjson\cJSON.c</FilePath>
+            </File>
+            <File>
+              <FileName>cJSON_Utils.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\cjson\cJSON_Utils.c</FilePath>
             </File>
           </Files>
         </Group>

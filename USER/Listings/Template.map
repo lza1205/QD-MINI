@@ -298,6 +298,153 @@ Section Cross References
     qdy_interface.o(i.set_net_send) refers to qdy_interface.o(.data) for net_send
     qdy_interface.o(i.set_passwd) refers to qdy_interface.o(.data) for passwd
     qdy_interface.o(i.update_head) refers to qdy_interface.o(i.__crc) for __crc
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.get_object_item) for get_object_item
+    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_IsString) for cJSON_IsString
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.decode_patch_operation) for decode_patch_operation
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.get_item_from_pointer) for get_item_from_pointer
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.compare_json) for compare_json
+    cjson_utils.o(i.apply_patch) refers to memcpya.o(.text) for __aeabi_memcpy4
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.overwrite_item) for overwrite_item
+    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_Duplicate) for cJSON_Duplicate
+    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_free) for cJSON_free
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.detach_path) for detach_path
+    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_Delete) for cJSON_Delete
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.cJSONUtils_strdup) for cJSONUtils_strdup
+    cjson_utils.o(i.apply_patch) refers to strrchr.o(.text) for strrchr
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.decode_pointer_inplace) for decode_pointer_inplace
+    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
+    cjson_utils.o(i.apply_patch) refers to strcmp.o(.text) for strcmp
+    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_AddItemToArray) for cJSON_AddItemToArray
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.decode_array_index_from_pointer) for decode_array_index_from_pointer
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.insert_item_in_array) for insert_item_in_array
+    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
+    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_DeleteItemFromObjectCaseSensitive) for cJSON_DeleteItemFromObjectCaseSensitive
+    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_DeleteItemFromObject) for cJSON_DeleteItemFromObject
+    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_AddItemToObject) for cJSON_AddItemToObject
+    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(.constdata) for invalid
+    cjson_utils.o(i.cJSONUtils_AddPatchToArray) refers to cjson_utils.o(i.compose_patch) for compose_patch
+    cjson_utils.o(i.cJSONUtils_ApplyPatches) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
+    cjson_utils.o(i.cJSONUtils_ApplyPatches) refers to cjson_utils.o(i.apply_patch) for apply_patch
+    cjson_utils.o(i.cJSONUtils_ApplyPatchesCaseSensitive) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
+    cjson_utils.o(i.cJSONUtils_ApplyPatchesCaseSensitive) refers to cjson_utils.o(i.apply_patch) for apply_patch
+    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson_utils.o(i.cJSONUtils_strdup) for cJSONUtils_strdup
+    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
+    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to strlen.o(.text) for strlen
+    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson.o(i.cJSON_malloc) for cJSON_malloc
+    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to printfa.o(i.__0sprintf) for __2sprintf
+    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson.o(i.cJSON_free) for cJSON_free
+    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
+    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson_utils.o(i.pointer_encoded_length) for pointer_encoded_length
+    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson_utils.o(i.encode_string_as_pointer) for encode_string_as_pointer
+    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to strcat.o(.text) for strcat
+    cjson_utils.o(i.cJSONUtils_GenerateMergePatch) refers to cjson_utils.o(i.generate_merge_patch) for generate_merge_patch
+    cjson_utils.o(i.cJSONUtils_GenerateMergePatchCaseSensitive) refers to cjson_utils.o(i.generate_merge_patch) for generate_merge_patch
+    cjson_utils.o(i.cJSONUtils_GeneratePatches) refers to cjson.o(i.cJSON_CreateArray) for cJSON_CreateArray
+    cjson_utils.o(i.cJSONUtils_GeneratePatches) refers to cjson_utils.o(i.create_patches) for create_patches
+    cjson_utils.o(i.cJSONUtils_GeneratePatchesCaseSensitive) refers to cjson.o(i.cJSON_CreateArray) for cJSON_CreateArray
+    cjson_utils.o(i.cJSONUtils_GeneratePatchesCaseSensitive) refers to cjson_utils.o(i.create_patches) for create_patches
+    cjson_utils.o(i.cJSONUtils_GetPointer) refers to cjson_utils.o(i.get_item_from_pointer) for get_item_from_pointer
+    cjson_utils.o(i.cJSONUtils_GetPointerCaseSensitive) refers to cjson_utils.o(i.get_item_from_pointer) for get_item_from_pointer
+    cjson_utils.o(i.cJSONUtils_MergePatch) refers to cjson_utils.o(i.merge_patch) for merge_patch
+    cjson_utils.o(i.cJSONUtils_MergePatchCaseSensitive) refers to cjson_utils.o(i.merge_patch) for merge_patch
+    cjson_utils.o(i.cJSONUtils_SortObject) refers to cjson_utils.o(i.sort_object) for sort_object
+    cjson_utils.o(i.cJSONUtils_SortObjectCaseSensitive) refers to cjson_utils.o(i.sort_object) for sort_object
+    cjson_utils.o(i.cJSONUtils_strdup) refers to strlen.o(.text) for strlen
+    cjson_utils.o(i.cJSONUtils_strdup) refers to cjson.o(i.cJSON_malloc) for cJSON_malloc
+    cjson_utils.o(i.cJSONUtils_strdup) refers to memcpya.o(.text) for __aeabi_memcpy
+    cjson_utils.o(i.compare_double) refers to dadd.o(.text) for __aeabi_dsub
+    cjson_utils.o(i.compare_double) refers to cdcmple.o(.text) for __aeabi_cdcmple
+    cjson_utils.o(i.compare_json) refers to cjson_utils.o(i.compare_double) for compare_double
+    cjson_utils.o(i.compare_json) refers to strcmp.o(.text) for strcmp
+    cjson_utils.o(i.compare_json) refers to cjson_utils.o(i.sort_object) for sort_object
+    cjson_utils.o(i.compare_json) refers to cjson_utils.o(i.compare_strings) for compare_strings
+    cjson_utils.o(i.compare_pointers) refers to tolower.o(.text) for tolower
+    cjson_utils.o(i.compare_strings) refers to strcmp.o(.text) for strcmp
+    cjson_utils.o(i.compare_strings) refers to tolower.o(.text) for tolower
+    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_CreateObject) for cJSON_CreateObject
+    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_CreateString) for cJSON_CreateString
+    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_AddItemToObject) for cJSON_AddItemToObject
+    cjson_utils.o(i.compose_patch) refers to cjson_utils.o(i.pointer_encoded_length) for pointer_encoded_length
+    cjson_utils.o(i.compose_patch) refers to strlen.o(.text) for strlen
+    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_malloc) for cJSON_malloc
+    cjson_utils.o(i.compose_patch) refers to printfa.o(i.__0sprintf) for __2sprintf
+    cjson_utils.o(i.compose_patch) refers to cjson_utils.o(i.encode_string_as_pointer) for encode_string_as_pointer
+    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_free) for cJSON_free
+    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_Duplicate) for cJSON_Duplicate
+    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_AddItemToArray) for cJSON_AddItemToArray
+    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.compose_patch) for compose_patch
+    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.compare_double) for compare_double
+    cjson_utils.o(i.create_patches) refers to strcmp.o(.text) for strcmp
+    cjson_utils.o(i.create_patches) refers to strlen.o(.text) for strlen
+    cjson_utils.o(i.create_patches) refers to cjson.o(i.cJSON_malloc) for cJSON_malloc
+    cjson_utils.o(i.create_patches) refers to printfa.o(i.__0sprintf) for __2sprintf
+    cjson_utils.o(i.create_patches) refers to cjson.o(i.cJSON_free) for cJSON_free
+    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.sort_object) for sort_object
+    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.compare_strings) for compare_strings
+    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.pointer_encoded_length) for pointer_encoded_length
+    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.encode_string_as_pointer) for encode_string_as_pointer
+    cjson_utils.o(i.decode_patch_operation) refers to cjson_utils.o(i.get_object_item) for get_object_item
+    cjson_utils.o(i.decode_patch_operation) refers to cjson.o(i.cJSON_IsString) for cJSON_IsString
+    cjson_utils.o(i.decode_patch_operation) refers to strcmp.o(.text) for strcmp
+    cjson_utils.o(i.detach_path) refers to cjson_utils.o(i.cJSONUtils_strdup) for cJSONUtils_strdup
+    cjson_utils.o(i.detach_path) refers to strrchr.o(.text) for strrchr
+    cjson_utils.o(i.detach_path) refers to cjson_utils.o(i.get_item_from_pointer) for get_item_from_pointer
+    cjson_utils.o(i.detach_path) refers to cjson_utils.o(i.decode_pointer_inplace) for decode_pointer_inplace
+    cjson_utils.o(i.detach_path) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
+    cjson_utils.o(i.detach_path) refers to cjson_utils.o(i.decode_array_index_from_pointer) for decode_array_index_from_pointer
+    cjson_utils.o(i.detach_path) refers to cjson_utils.o(i.detach_item_from_array) for detach_item_from_array
+    cjson_utils.o(i.detach_path) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
+    cjson_utils.o(i.detach_path) refers to cjson.o(i.cJSON_DetachItemFromObject) for cJSON_DetachItemFromObject
+    cjson_utils.o(i.detach_path) refers to cjson.o(i.cJSON_free) for cJSON_free
+    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_CreateNull) for cJSON_CreateNull
+    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
+    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_Duplicate) for cJSON_Duplicate
+    cjson_utils.o(i.generate_merge_patch) refers to cjson_utils.o(i.sort_object) for sort_object
+    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_CreateObject) for cJSON_CreateObject
+    cjson_utils.o(i.generate_merge_patch) refers to strcmp.o(.text) for strcmp
+    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_AddItemToObject) for cJSON_AddItemToObject
+    cjson_utils.o(i.generate_merge_patch) refers to cjson_utils.o(i.compare_json) for compare_json
+    cjson_utils.o(i.generate_merge_patch) refers to cjson_utils.o(i.cJSONUtils_GenerateMergePatch) for cJSONUtils_GenerateMergePatch
+    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_Delete) for cJSON_Delete
+    cjson_utils.o(i.get_item_from_pointer) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
+    cjson_utils.o(i.get_item_from_pointer) refers to cjson_utils.o(i.decode_array_index_from_pointer) for decode_array_index_from_pointer
+    cjson_utils.o(i.get_item_from_pointer) refers to cjson_utils.o(i.get_array_item) for get_array_item
+    cjson_utils.o(i.get_item_from_pointer) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
+    cjson_utils.o(i.get_item_from_pointer) refers to cjson_utils.o(i.compare_pointers) for compare_pointers
+    cjson_utils.o(i.get_object_item) refers to cjson.o(i.cJSON_GetObjectItemCaseSensitive) for cJSON_GetObjectItemCaseSensitive
+    cjson_utils.o(i.get_object_item) refers to cjson.o(i.cJSON_GetObjectItem) for cJSON_GetObjectItem
+    cjson_utils.o(i.insert_item_in_array) refers to cjson.o(i.cJSON_AddItemToArray) for cJSON_AddItemToArray
+    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
+    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_Delete) for cJSON_Delete
+    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_Duplicate) for cJSON_Duplicate
+    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_CreateObject) for cJSON_CreateObject
+    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_IsNull) for cJSON_IsNull
+    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_DeleteItemFromObjectCaseSensitive) for cJSON_DeleteItemFromObjectCaseSensitive
+    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_DeleteItemFromObject) for cJSON_DeleteItemFromObject
+    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_DetachItemFromObjectCaseSensitive) for cJSON_DetachItemFromObjectCaseSensitive
+    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_DetachItemFromObject) for cJSON_DetachItemFromObject
+    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_AddItemToObject) for cJSON_AddItemToObject
+    cjson_utils.o(i.overwrite_item) refers to cjson.o(i.cJSON_free) for cJSON_free
+    cjson_utils.o(i.overwrite_item) refers to cjson.o(i.cJSON_Delete) for cJSON_Delete
+    cjson_utils.o(i.overwrite_item) refers to memcpya.o(.text) for __aeabi_memcpy4
+    cjson_utils.o(i.sort_list) refers to cjson_utils.o(i.compare_strings) for compare_strings
+    cjson_utils.o(i.sort_object) refers to cjson_utils.o(i.sort_list) for sort_list
+    malloc.o(i.mem_free) refers to malloc.o(.data) for mallco_dev
+    malloc.o(i.mem_init) refers to malloc.o(i.mymemset) for mymemset
+    malloc.o(i.mem_init) refers to malloc.o(.data) for mallco_dev
+    malloc.o(i.mem_malloc) refers to malloc.o(.data) for mallco_dev
+    malloc.o(i.mem_perused) refers to malloc.o(.data) for mallco_dev
+    malloc.o(i.myfree) refers to malloc.o(i.mem_free) for mem_free
+    malloc.o(i.myfree) refers to malloc.o(.data) for mallco_dev
+    malloc.o(i.mymalloc) refers to malloc.o(i.mem_malloc) for mem_malloc
+    malloc.o(i.mymalloc) refers to malloc.o(.data) for mallco_dev
+    malloc.o(i.myrealloc) refers to malloc.o(i.mem_malloc) for mem_malloc
+    malloc.o(i.myrealloc) refers to malloc.o(i.mymemcpy) for mymemcpy
+    malloc.o(i.myrealloc) refers to malloc.o(i.myfree) for myfree
+    malloc.o(i.myrealloc) refers to malloc.o(.data) for mallco_dev
+    malloc.o(.data) refers to malloc.o(i.mem_init) for mem_init
+    malloc.o(.data) refers to malloc.o(i.mem_perused) for mem_perused
+    malloc.o(.data) refers to malloc.o(.bss) for membase
     cjson.o(i.add_item_to_array) refers to cjson.o(i.suffix_object) for suffix_object
     cjson.o(i.add_item_to_object) refers to cjson.o(i.cast_away_const) for cast_away_const
     cjson.o(i.add_item_to_object) refers to cjson.o(i.cJSON_strdup) for cJSON_strdup
@@ -542,137 +689,6 @@ Section Cross References
     cjson.o(.data) refers to mallocr.o(i.__malloc$realloc) for malloc
     cjson.o(.data) refers to mallocr.o(i.__free$realloc) for free
     cjson.o(.data) refers to mallocr.o(i.realloc) for realloc
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.get_object_item) for get_object_item
-    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_IsString) for cJSON_IsString
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.decode_patch_operation) for decode_patch_operation
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.get_item_from_pointer) for get_item_from_pointer
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.compare_json) for compare_json
-    cjson_utils.o(i.apply_patch) refers to memcpya.o(.text) for __aeabi_memcpy4
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.overwrite_item) for overwrite_item
-    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_Duplicate) for cJSON_Duplicate
-    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_free) for cJSON_free
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.detach_path) for detach_path
-    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_Delete) for cJSON_Delete
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.cJSONUtils_strdup) for cJSONUtils_strdup
-    cjson_utils.o(i.apply_patch) refers to strrchr.o(.text) for strrchr
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.decode_pointer_inplace) for decode_pointer_inplace
-    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
-    cjson_utils.o(i.apply_patch) refers to strcmp.o(.text) for strcmp
-    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_AddItemToArray) for cJSON_AddItemToArray
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.decode_array_index_from_pointer) for decode_array_index_from_pointer
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(i.insert_item_in_array) for insert_item_in_array
-    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
-    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_DeleteItemFromObjectCaseSensitive) for cJSON_DeleteItemFromObjectCaseSensitive
-    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_DeleteItemFromObject) for cJSON_DeleteItemFromObject
-    cjson_utils.o(i.apply_patch) refers to cjson.o(i.cJSON_AddItemToObject) for cJSON_AddItemToObject
-    cjson_utils.o(i.apply_patch) refers to cjson_utils.o(.constdata) for invalid
-    cjson_utils.o(i.cJSONUtils_AddPatchToArray) refers to cjson_utils.o(i.compose_patch) for compose_patch
-    cjson_utils.o(i.cJSONUtils_ApplyPatches) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
-    cjson_utils.o(i.cJSONUtils_ApplyPatches) refers to cjson_utils.o(i.apply_patch) for apply_patch
-    cjson_utils.o(i.cJSONUtils_ApplyPatchesCaseSensitive) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
-    cjson_utils.o(i.cJSONUtils_ApplyPatchesCaseSensitive) refers to cjson_utils.o(i.apply_patch) for apply_patch
-    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson_utils.o(i.cJSONUtils_strdup) for cJSONUtils_strdup
-    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
-    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to strlen.o(.text) for strlen
-    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson.o(i.cJSON_malloc) for cJSON_malloc
-    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to printfa.o(i.__0sprintf) for __2sprintf
-    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson.o(i.cJSON_free) for cJSON_free
-    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
-    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson_utils.o(i.pointer_encoded_length) for pointer_encoded_length
-    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to cjson_utils.o(i.encode_string_as_pointer) for encode_string_as_pointer
-    cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo) refers to strcat.o(.text) for strcat
-    cjson_utils.o(i.cJSONUtils_GenerateMergePatch) refers to cjson_utils.o(i.generate_merge_patch) for generate_merge_patch
-    cjson_utils.o(i.cJSONUtils_GenerateMergePatchCaseSensitive) refers to cjson_utils.o(i.generate_merge_patch) for generate_merge_patch
-    cjson_utils.o(i.cJSONUtils_GeneratePatches) refers to cjson.o(i.cJSON_CreateArray) for cJSON_CreateArray
-    cjson_utils.o(i.cJSONUtils_GeneratePatches) refers to cjson_utils.o(i.create_patches) for create_patches
-    cjson_utils.o(i.cJSONUtils_GeneratePatchesCaseSensitive) refers to cjson.o(i.cJSON_CreateArray) for cJSON_CreateArray
-    cjson_utils.o(i.cJSONUtils_GeneratePatchesCaseSensitive) refers to cjson_utils.o(i.create_patches) for create_patches
-    cjson_utils.o(i.cJSONUtils_GetPointer) refers to cjson_utils.o(i.get_item_from_pointer) for get_item_from_pointer
-    cjson_utils.o(i.cJSONUtils_GetPointerCaseSensitive) refers to cjson_utils.o(i.get_item_from_pointer) for get_item_from_pointer
-    cjson_utils.o(i.cJSONUtils_MergePatch) refers to cjson_utils.o(i.merge_patch) for merge_patch
-    cjson_utils.o(i.cJSONUtils_MergePatchCaseSensitive) refers to cjson_utils.o(i.merge_patch) for merge_patch
-    cjson_utils.o(i.cJSONUtils_SortObject) refers to cjson_utils.o(i.sort_object) for sort_object
-    cjson_utils.o(i.cJSONUtils_SortObjectCaseSensitive) refers to cjson_utils.o(i.sort_object) for sort_object
-    cjson_utils.o(i.cJSONUtils_strdup) refers to strlen.o(.text) for strlen
-    cjson_utils.o(i.cJSONUtils_strdup) refers to cjson.o(i.cJSON_malloc) for cJSON_malloc
-    cjson_utils.o(i.cJSONUtils_strdup) refers to memcpya.o(.text) for __aeabi_memcpy
-    cjson_utils.o(i.compare_double) refers to dadd.o(.text) for __aeabi_dsub
-    cjson_utils.o(i.compare_double) refers to cdcmple.o(.text) for __aeabi_cdcmple
-    cjson_utils.o(i.compare_json) refers to cjson_utils.o(i.compare_double) for compare_double
-    cjson_utils.o(i.compare_json) refers to strcmp.o(.text) for strcmp
-    cjson_utils.o(i.compare_json) refers to cjson_utils.o(i.sort_object) for sort_object
-    cjson_utils.o(i.compare_json) refers to cjson_utils.o(i.compare_strings) for compare_strings
-    cjson_utils.o(i.compare_pointers) refers to tolower.o(.text) for tolower
-    cjson_utils.o(i.compare_strings) refers to strcmp.o(.text) for strcmp
-    cjson_utils.o(i.compare_strings) refers to tolower.o(.text) for tolower
-    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_CreateObject) for cJSON_CreateObject
-    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_CreateString) for cJSON_CreateString
-    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_AddItemToObject) for cJSON_AddItemToObject
-    cjson_utils.o(i.compose_patch) refers to cjson_utils.o(i.pointer_encoded_length) for pointer_encoded_length
-    cjson_utils.o(i.compose_patch) refers to strlen.o(.text) for strlen
-    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_malloc) for cJSON_malloc
-    cjson_utils.o(i.compose_patch) refers to printfa.o(i.__0sprintf) for __2sprintf
-    cjson_utils.o(i.compose_patch) refers to cjson_utils.o(i.encode_string_as_pointer) for encode_string_as_pointer
-    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_free) for cJSON_free
-    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_Duplicate) for cJSON_Duplicate
-    cjson_utils.o(i.compose_patch) refers to cjson.o(i.cJSON_AddItemToArray) for cJSON_AddItemToArray
-    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.compose_patch) for compose_patch
-    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.compare_double) for compare_double
-    cjson_utils.o(i.create_patches) refers to strcmp.o(.text) for strcmp
-    cjson_utils.o(i.create_patches) refers to strlen.o(.text) for strlen
-    cjson_utils.o(i.create_patches) refers to cjson.o(i.cJSON_malloc) for cJSON_malloc
-    cjson_utils.o(i.create_patches) refers to printfa.o(i.__0sprintf) for __2sprintf
-    cjson_utils.o(i.create_patches) refers to cjson.o(i.cJSON_free) for cJSON_free
-    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.sort_object) for sort_object
-    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.compare_strings) for compare_strings
-    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.pointer_encoded_length) for pointer_encoded_length
-    cjson_utils.o(i.create_patches) refers to cjson_utils.o(i.encode_string_as_pointer) for encode_string_as_pointer
-    cjson_utils.o(i.decode_patch_operation) refers to cjson_utils.o(i.get_object_item) for get_object_item
-    cjson_utils.o(i.decode_patch_operation) refers to cjson.o(i.cJSON_IsString) for cJSON_IsString
-    cjson_utils.o(i.decode_patch_operation) refers to strcmp.o(.text) for strcmp
-    cjson_utils.o(i.detach_path) refers to cjson_utils.o(i.cJSONUtils_strdup) for cJSONUtils_strdup
-    cjson_utils.o(i.detach_path) refers to strrchr.o(.text) for strrchr
-    cjson_utils.o(i.detach_path) refers to cjson_utils.o(i.get_item_from_pointer) for get_item_from_pointer
-    cjson_utils.o(i.detach_path) refers to cjson_utils.o(i.decode_pointer_inplace) for decode_pointer_inplace
-    cjson_utils.o(i.detach_path) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
-    cjson_utils.o(i.detach_path) refers to cjson_utils.o(i.decode_array_index_from_pointer) for decode_array_index_from_pointer
-    cjson_utils.o(i.detach_path) refers to cjson_utils.o(i.detach_item_from_array) for detach_item_from_array
-    cjson_utils.o(i.detach_path) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
-    cjson_utils.o(i.detach_path) refers to cjson.o(i.cJSON_DetachItemFromObject) for cJSON_DetachItemFromObject
-    cjson_utils.o(i.detach_path) refers to cjson.o(i.cJSON_free) for cJSON_free
-    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_CreateNull) for cJSON_CreateNull
-    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
-    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_Duplicate) for cJSON_Duplicate
-    cjson_utils.o(i.generate_merge_patch) refers to cjson_utils.o(i.sort_object) for sort_object
-    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_CreateObject) for cJSON_CreateObject
-    cjson_utils.o(i.generate_merge_patch) refers to strcmp.o(.text) for strcmp
-    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_AddItemToObject) for cJSON_AddItemToObject
-    cjson_utils.o(i.generate_merge_patch) refers to cjson_utils.o(i.compare_json) for compare_json
-    cjson_utils.o(i.generate_merge_patch) refers to cjson_utils.o(i.cJSONUtils_GenerateMergePatch) for cJSONUtils_GenerateMergePatch
-    cjson_utils.o(i.generate_merge_patch) refers to cjson.o(i.cJSON_Delete) for cJSON_Delete
-    cjson_utils.o(i.get_item_from_pointer) refers to cjson.o(i.cJSON_IsArray) for cJSON_IsArray
-    cjson_utils.o(i.get_item_from_pointer) refers to cjson_utils.o(i.decode_array_index_from_pointer) for decode_array_index_from_pointer
-    cjson_utils.o(i.get_item_from_pointer) refers to cjson_utils.o(i.get_array_item) for get_array_item
-    cjson_utils.o(i.get_item_from_pointer) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
-    cjson_utils.o(i.get_item_from_pointer) refers to cjson_utils.o(i.compare_pointers) for compare_pointers
-    cjson_utils.o(i.get_object_item) refers to cjson.o(i.cJSON_GetObjectItemCaseSensitive) for cJSON_GetObjectItemCaseSensitive
-    cjson_utils.o(i.get_object_item) refers to cjson.o(i.cJSON_GetObjectItem) for cJSON_GetObjectItem
-    cjson_utils.o(i.insert_item_in_array) refers to cjson.o(i.cJSON_AddItemToArray) for cJSON_AddItemToArray
-    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_IsObject) for cJSON_IsObject
-    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_Delete) for cJSON_Delete
-    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_Duplicate) for cJSON_Duplicate
-    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_CreateObject) for cJSON_CreateObject
-    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_IsNull) for cJSON_IsNull
-    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_DeleteItemFromObjectCaseSensitive) for cJSON_DeleteItemFromObjectCaseSensitive
-    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_DeleteItemFromObject) for cJSON_DeleteItemFromObject
-    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_DetachItemFromObjectCaseSensitive) for cJSON_DetachItemFromObjectCaseSensitive
-    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_DetachItemFromObject) for cJSON_DetachItemFromObject
-    cjson_utils.o(i.merge_patch) refers to cjson.o(i.cJSON_AddItemToObject) for cJSON_AddItemToObject
-    cjson_utils.o(i.overwrite_item) refers to cjson.o(i.cJSON_free) for cJSON_free
-    cjson_utils.o(i.overwrite_item) refers to cjson.o(i.cJSON_Delete) for cJSON_Delete
-    cjson_utils.o(i.overwrite_item) refers to memcpya.o(.text) for __aeabi_memcpy4
-    cjson_utils.o(i.sort_list) refers to cjson_utils.o(i.compare_strings) for compare_strings
-    cjson_utils.o(i.sort_object) refers to cjson_utils.o(i.sort_list) for sort_list
     strtod.o(i.__softfp_strtod) refers (Special) to iusefp.o(.text) for __I$use$fp
     strtod.o(i.__softfp_strtod) refers to strtod.o(.text) for __strtod_int
     strtod.o(i.strtod) refers (Special) to iusefp.o(.text) for __I$use$fp
@@ -1486,6 +1502,57 @@ Removing Unused input sections from the image.
     Removing tcp_base.o(.data), (4 bytes).
     Removing qdy_interface.o(i.qdy_get_len), (8 bytes).
     Removing qdy_interface.o(i.set_passwd), (12 bytes).
+    Removing cjson_utils.o(i.apply_patch), (692 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_AddPatchToArray), (26 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_ApplyPatches), (60 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_ApplyPatchesCaseSensitive), (60 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo), (212 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_GenerateMergePatch), (18 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_GenerateMergePatchCaseSensitive), (18 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_GeneratePatches), (48 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_GeneratePatchesCaseSensitive), (48 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_GetPointer), (18 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_GetPointerCaseSensitive), (18 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_MergePatch), (18 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_MergePatchCaseSensitive), (18 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_SortObject), (14 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_SortObjectCaseSensitive), (14 bytes).
+    Removing cjson_utils.o(i.cJSONUtils_strdup), (44 bytes).
+    Removing cjson_utils.o(i.compare_double), (60 bytes).
+    Removing cjson_utils.o(i.compare_json), (266 bytes).
+    Removing cjson_utils.o(i.compare_pointers), (150 bytes).
+    Removing cjson_utils.o(i.compare_strings), (90 bytes).
+    Removing cjson_utils.o(i.compose_patch), (220 bytes).
+    Removing cjson_utils.o(i.create_patches), (528 bytes).
+    Removing cjson_utils.o(i.decode_array_index_from_pointer), (78 bytes).
+    Removing cjson_utils.o(i.decode_patch_operation), (168 bytes).
+    Removing cjson_utils.o(i.decode_pointer_inplace), (58 bytes).
+    Removing cjson_utils.o(i.detach_item_from_array), (66 bytes).
+    Removing cjson_utils.o(i.detach_path), (142 bytes).
+    Removing cjson_utils.o(i.encode_string_as_pointer), (50 bytes).
+    Removing cjson_utils.o(i.generate_merge_patch), (224 bytes).
+    Removing cjson_utils.o(i.get_array_item), (26 bytes).
+    Removing cjson_utils.o(i.get_item_from_pointer), (122 bytes).
+    Removing cjson_utils.o(i.get_object_item), (30 bytes).
+    Removing cjson_utils.o(i.insert_item_in_array), (72 bytes).
+    Removing cjson_utils.o(i.merge_patch), (162 bytes).
+    Removing cjson_utils.o(i.overwrite_item), (58 bytes).
+    Removing cjson_utils.o(i.pointer_encoded_length), (32 bytes).
+    Removing cjson_utils.o(i.sort_list), (232 bytes).
+    Removing cjson_utils.o(i.sort_object), (24 bytes).
+    Removing cjson_utils.o(.constdata), (40 bytes).
+    Removing malloc.o(i.mem_free), (72 bytes).
+    Removing malloc.o(i.mem_init), (44 bytes).
+    Removing malloc.o(i.mem_malloc), (120 bytes).
+    Removing malloc.o(i.mem_perused), (48 bytes).
+    Removing malloc.o(i.myfree), (28 bytes).
+    Removing malloc.o(i.mymalloc), (32 bytes).
+    Removing malloc.o(i.mymemcpy), (26 bytes).
+    Removing malloc.o(i.mymemset), (20 bytes).
+    Removing malloc.o(i.myrealloc), (56 bytes).
+    Removing malloc.o(.bss), (10880 bytes).
+    Removing malloc.o(.constdata), (12 bytes).
+    Removing malloc.o(.data), (20 bytes).
     Removing cjson.o(i.buffer_skip_whitespace), (58 bytes).
     Removing cjson.o(i.cJSON_AddArrayToObject), (48 bytes).
     Removing cjson.o(i.cJSON_AddBoolToObject), (52 bytes).
@@ -1573,48 +1640,9 @@ Removing Unused input sections from the image.
     Removing cjson.o(i.skip_utf8_bom), (60 bytes).
     Removing cjson.o(i.utf16_literal_to_utf8), (300 bytes).
     Removing cjson.o(.bss), (15 bytes).
-    Removing cjson_utils.o(i.apply_patch), (692 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_AddPatchToArray), (26 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_ApplyPatches), (60 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_ApplyPatchesCaseSensitive), (60 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_FindPointerFromObjectTo), (212 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_GenerateMergePatch), (18 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_GenerateMergePatchCaseSensitive), (18 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_GeneratePatches), (48 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_GeneratePatchesCaseSensitive), (48 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_GetPointer), (18 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_GetPointerCaseSensitive), (18 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_MergePatch), (18 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_MergePatchCaseSensitive), (18 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_SortObject), (14 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_SortObjectCaseSensitive), (14 bytes).
-    Removing cjson_utils.o(i.cJSONUtils_strdup), (44 bytes).
-    Removing cjson_utils.o(i.compare_double), (60 bytes).
-    Removing cjson_utils.o(i.compare_json), (266 bytes).
-    Removing cjson_utils.o(i.compare_pointers), (150 bytes).
-    Removing cjson_utils.o(i.compare_strings), (90 bytes).
-    Removing cjson_utils.o(i.compose_patch), (220 bytes).
-    Removing cjson_utils.o(i.create_patches), (528 bytes).
-    Removing cjson_utils.o(i.decode_array_index_from_pointer), (78 bytes).
-    Removing cjson_utils.o(i.decode_patch_operation), (168 bytes).
-    Removing cjson_utils.o(i.decode_pointer_inplace), (58 bytes).
-    Removing cjson_utils.o(i.detach_item_from_array), (66 bytes).
-    Removing cjson_utils.o(i.detach_path), (142 bytes).
-    Removing cjson_utils.o(i.encode_string_as_pointer), (50 bytes).
-    Removing cjson_utils.o(i.generate_merge_patch), (224 bytes).
-    Removing cjson_utils.o(i.get_array_item), (26 bytes).
-    Removing cjson_utils.o(i.get_item_from_pointer), (122 bytes).
-    Removing cjson_utils.o(i.get_object_item), (30 bytes).
-    Removing cjson_utils.o(i.insert_item_in_array), (72 bytes).
-    Removing cjson_utils.o(i.merge_patch), (162 bytes).
-    Removing cjson_utils.o(i.overwrite_item), (58 bytes).
-    Removing cjson_utils.o(i.pointer_encoded_length), (32 bytes).
-    Removing cjson_utils.o(i.sort_list), (232 bytes).
-    Removing cjson_utils.o(i.sort_object), (24 bytes).
-    Removing cjson_utils.o(.constdata), (40 bytes).
     Removing dflti.o(.text), (34 bytes).
 
-598 unused section(s) (total 30620 bytes) removed from the image.
+610 unused section(s) (total 41978 bytes) removed from the image.
 
 ==============================================================================
 
@@ -1624,51 +1652,51 @@ Image Symbol Table
 
     Symbol Name                              Value     Ov Type        Size  Object(Section)
 
-    ../clib/microlib/ctype/ctype.c           0x00000000   Number         0  ctype_c.o ABSOLUTE
     ../clib/microlib/ctype/ctype.c           0x00000000   Number         0  isspace_c.o ABSOLUTE
+    ../clib/microlib/ctype/ctype.c           0x00000000   Number         0  ctype_c.o ABSOLUTE
     ../clib/microlib/ctype/tolower.c         0x00000000   Number         0  tolower.o ABSOLUTE
-    ../clib/microlib/division.c              0x00000000   Number         0  uldiv.o ABSOLUTE
     ../clib/microlib/division.c              0x00000000   Number         0  uidiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uldiv.o ABSOLUTE
     ../clib/microlib/errno.c                 0x00000000   Number         0  errno.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
     ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
-    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
     ../clib/microlib/longlong.c              0x00000000   Number         0  llsshr.o ABSOLUTE
-    ../clib/microlib/malloc/malloc.c         0x00000000   Number         0  mallocr.o ABSOLUTE
-    ../clib/microlib/malloc/malloc.c         0x00000000   Number         0  malloc.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
     ../clib/microlib/malloc/malloc.c         0x00000000   Number         0  mallocra.o ABSOLUTE
     ../clib/microlib/malloc/malloc.c         0x00000000   Number         0  malloca.o ABSOLUTE
+    ../clib/microlib/malloc/malloc.c         0x00000000   Number         0  mallocr.o ABSOLUTE
+    ../clib/microlib/malloc/malloc.c         0x00000000   Number         0  malloc.o ABSOLUTE
     ../clib/microlib/malloc/mvars.c          0x00000000   Number         0  mvars.o ABSOLUTE
-    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf4.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf3.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfb.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf5.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf6.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf7.o ABSOLUTE
-    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfa.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf8.o ABSOLUTE
-    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfb.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfa.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf1.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf4.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf0.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf2.o ABSOLUTE
-    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf3.o ABSOLUTE
     ../clib/microlib/printf/stubs.s          0x00000000   Number         0  stubs.o ABSOLUTE
-    ../clib/microlib/stdio/fputs.c           0x00000000   Number         0  fputs.o ABSOLUTE
     ../clib/microlib/stdio/fputs.c           0x00000000   Number         0  fputs_e.o ABSOLUTE
+    ../clib/microlib/stdio/fputs.c           0x00000000   Number         0  fputs.o ABSOLUTE
     ../clib/microlib/stdio/perror.c          0x00000000   Number         0  perror.o ABSOLUTE
     ../clib/microlib/stdio/streams.c         0x00000000   Number         0  stderr.o ABSOLUTE
-    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
     ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
     ../clib/microlib/string/memset.c         0x00000000   Number         0  memseta.o ABSOLUTE
     ../clib/microlib/string/strcat.c         0x00000000   Number         0  strcat.o ABSOLUTE
     ../clib/microlib/string/strcmp.c         0x00000000   Number         0  strcmp.o ABSOLUTE
@@ -1680,20 +1708,20 @@ Image Symbol Table
     ../clib/microlib/string/strstr.c         0x00000000   Number         0  strstr.o ABSOLUTE
     ../clib/microlib/stubs.s                 0x00000000   Number         0  useno.o ABSOLUTE
     ../clib/microlib/stubs.s                 0x00000000   Number         0  iusefp.o ABSOLUTE
-    ../clib/scanf.c                          0x00000000   Number         0  scanf_fp.o ABSOLUTE
+    ../clib/scanf.c                          0x00000000   Number         0  strtod.o ABSOLUTE
     ../clib/scanf.c                          0x00000000   Number         0  scanf_char.o ABSOLUTE
     ../clib/scanf.c                          0x00000000   Number         0  __0sscanf.o ABSOLUTE
-    ../clib/scanf.c                          0x00000000   Number         0  _scanf.o ABSOLUTE
-    ../clib/scanf.c                          0x00000000   Number         0  strtod.o ABSOLUTE
     ../clib/scanf.c                          0x00000000   Number         0  _sgetc.o ABSOLUTE
+    ../clib/scanf.c                          0x00000000   Number         0  scanf_fp.o ABSOLUTE
+    ../clib/scanf.c                          0x00000000   Number         0  _scanf.o ABSOLUTE
     ../fplib/microlib/d2f.c                  0x00000000   Number         0  d2f.o ABSOLUTE
     ../fplib/microlib/f2d.c                  0x00000000   Number         0  f2d.o ABSOLUTE
     ../fplib/microlib/fpadd.c                0x00000000   Number         0  dadd.o ABSOLUTE
     ../fplib/microlib/fpdiv.c                0x00000000   Number         0  ddiv.o ABSOLUTE
     ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  fepilogue.o ABSOLUTE
     ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  depilogue.o ABSOLUTE
-    ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixi.o ABSOLUTE
     ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixul.o ABSOLUTE
+    ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixi.o ABSOLUTE
     ../fplib/microlib/fpflt.c                0x00000000   Number         0  dflti.o ABSOLUTE
     ../fplib/microlib/fpflt.c                0x00000000   Number         0  dfltul.o ABSOLUTE
     ../fplib/microlib/fpmul.c                0x00000000   Number         0  dmul.o ABSOLUTE
@@ -1731,6 +1759,7 @@ Image Symbol Table
     ..\HARDWARE\TIMER\timer.c                0x00000000   Number         0  timer.o ABSOLUTE
     ..\HARDWARE\cjson\cJSON.c                0x00000000   Number         0  cjson.o ABSOLUTE
     ..\HARDWARE\cjson\cJSON_Utils.c          0x00000000   Number         0  cjson_utils.o ABSOLUTE
+    ..\HARDWARE\cjson_forstm32\malloc.c      0x00000000   Number         0  malloc.o ABSOLUTE
     ..\HARDWARE\gsm\gsm_base.c               0x00000000   Number         0  gsm_base.o ABSOLUTE
     ..\HARDWARE\gsm\gsm_code.c               0x00000000   Number         0  gsm_code.o ABSOLUTE
     ..\HARDWARE\gsm\tcp_base.c               0x00000000   Number         0  tcp_base.o ABSOLUTE
@@ -1779,8 +1808,8 @@ Image Symbol Table
     .text                                    0x08000a68   Section        0  scanf_char.o(.text)
     _scanf_char_input                        0x08000a69   Thumb Code    12  scanf_char.o(.text)
     .text                                    0x08000a90   Section        0  _sgetc.o(.text)
-    .text                                    0x08000ad0   Section        0  iusefp.o(.text)
     .text                                    0x08000ad0   Section        0  fepilogue.o(.text)
+    .text                                    0x08000ad0   Section        0  iusefp.o(.text)
     .text                                    0x08000b3e   Section        0  depilogue.o(.text)
     .text                                    0x08000bf8   Section        0  ddiv.o(.text)
     .text                                    0x08000cd6   Section        0  dfltul.o(.text)
@@ -1963,8 +1992,8 @@ Image Symbol Table
     .bss                                     0x2000085c   Section     2000  gsm_base.o(.bss)
     .bss                                     0x2000102c   Section     1024  client_demo.o(.bss)
     .bss                                     0x2000142c   Section       40  qdy_interface.o(.bss)
-    HEAP                                     0x20001458   Section      512  startup_stm32f10x_hd.o(HEAP)
-    STACK                                    0x20001658   Section     1024  startup_stm32f10x_hd.o(STACK)
+    HEAP                                     0x20001458   Section     3072  startup_stm32f10x_hd.o(HEAP)
+    STACK                                    0x20002058   Section     1024  startup_stm32f10x_hd.o(STACK)
 
     Global Symbols
 
@@ -2289,8 +2318,8 @@ Image Symbol Table
     my_name                                  0x2000142c   Data          20  qdy_interface.o(.bss)
     my_customer                              0x20001440   Data          20  qdy_interface.o(.bss)
     __heap_base                              0x20001458   Data           0  startup_stm32f10x_hd.o(HEAP)
-    __heap_limit                             0x20001658   Data           0  startup_stm32f10x_hd.o(HEAP)
-    __initial_sp                             0x20001a58   Data           0  startup_stm32f10x_hd.o(STACK)
+    __heap_limit                             0x20002058   Data           0  startup_stm32f10x_hd.o(HEAP)
+    __initial_sp                             0x20002458   Data           0  startup_stm32f10x_hd.o(STACK)
 
 
 
@@ -2307,51 +2336,51 @@ Memory Map of the image
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x00000130   Data   RO         3173    RESET               startup_stm32f10x_hd.o
-    0x08000130   0x00000000   Code   RO         4550  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000130   0x00000004   Code   RO         4888    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x08000134   0x00000004   Code   RO         4891    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000138   0x00000000   Code   RO         4893    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000138   0x00000000   Code   RO         4895    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000138   0x00000008   Code   RO         4896    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000140   0x00000000   Code   RO         4898    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000140   0x00000000   Code   RO         4900    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000140   0x00000004   Code   RO         4889    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000130   0x00000000   Code   RO         4618  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000130   0x00000004   Code   RO         4956    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x08000134   0x00000004   Code   RO         4959    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000138   0x00000000   Code   RO         4961    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000138   0x00000000   Code   RO         4963    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000138   0x00000008   Code   RO         4964    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000140   0x00000000   Code   RO         4966    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000140   0x00000000   Code   RO         4968    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000140   0x00000004   Code   RO         4957    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x08000144   0x00000024   Code   RO         3174    .text               startup_stm32f10x_hd.o
-    0x08000168   0x00000024   Code   RO         4557    .text               mc_w.l(memcpya.o)
-    0x0800018c   0x00000024   Code   RO         4559    .text               mc_w.l(memseta.o)
-    0x080001b0   0x00000024   Code   RO         4563    .text               mc_w.l(strstr.o)
-    0x080001d4   0x0000000e   Code   RO         4565    .text               mc_w.l(strlen.o)
-    0x080001e2   0x00000012   Code   RO         4569    .text               mc_w.l(strcpy.o)
-    0x080001f4   0x00000038   Code   RO         4866    .text               mc_w.l(__0sscanf.o)
-    0x0800022c   0x00000338   Code   RO         4868    .text               mc_w.l(scanf_fp.o)
-    0x08000564   0x0000014e   Code   RO         4872    .text               mf_w.l(dadd.o)
-    0x080006b2   0x000000e4   Code   RO         4874    .text               mf_w.l(dmul.o)
-    0x08000796   0x0000003e   Code   RO         4878    .text               mf_w.l(dfixi.o)
-    0x080007d4   0x00000026   Code   RO         4880    .text               mf_w.l(f2d.o)
+    0x08000168   0x00000024   Code   RO         4625    .text               mc_w.l(memcpya.o)
+    0x0800018c   0x00000024   Code   RO         4627    .text               mc_w.l(memseta.o)
+    0x080001b0   0x00000024   Code   RO         4631    .text               mc_w.l(strstr.o)
+    0x080001d4   0x0000000e   Code   RO         4633    .text               mc_w.l(strlen.o)
+    0x080001e2   0x00000012   Code   RO         4637    .text               mc_w.l(strcpy.o)
+    0x080001f4   0x00000038   Code   RO         4934    .text               mc_w.l(__0sscanf.o)
+    0x0800022c   0x00000338   Code   RO         4936    .text               mc_w.l(scanf_fp.o)
+    0x08000564   0x0000014e   Code   RO         4940    .text               mf_w.l(dadd.o)
+    0x080006b2   0x000000e4   Code   RO         4942    .text               mf_w.l(dmul.o)
+    0x08000796   0x0000003e   Code   RO         4946    .text               mf_w.l(dfixi.o)
+    0x080007d4   0x00000026   Code   RO         4948    .text               mf_w.l(f2d.o)
     0x080007fa   0x00000002   PAD
-    0x080007fc   0x00000030   Code   RO         4882    .text               mf_w.l(cdcmple.o)
-    0x0800082c   0x00000030   Code   RO         4884    .text               mf_w.l(cdrcmple.o)
-    0x0800085c   0x00000038   Code   RO         4886    .text               mf_w.l(d2f.o)
-    0x08000894   0x0000002c   Code   RO         4907    .text               mc_w.l(uidiv.o)
-    0x080008c0   0x00000062   Code   RO         4909    .text               mc_w.l(uldiv.o)
-    0x08000922   0x0000001e   Code   RO         4911    .text               mc_w.l(llshl.o)
-    0x08000940   0x00000020   Code   RO         4913    .text               mc_w.l(llushr.o)
-    0x08000960   0x00000024   Code   RO         4915    .text               mc_w.l(llsshr.o)
-    0x08000984   0x000000e4   Code   RO         4917    .text               mc_w.l(strerror.o)
-    0x08000a68   0x00000028   Code   RO         4928    .text               mc_w.l(scanf_char.o)
-    0x08000a90   0x00000040   Code   RO         4930    .text               mc_w.l(_sgetc.o)
-    0x08000ad0   0x00000000   Code   RO         4934    .text               mc_w.l(iusefp.o)
-    0x08000ad0   0x0000006e   Code   RO         4935    .text               mf_w.l(fepilogue.o)
-    0x08000b3e   0x000000ba   Code   RO         4937    .text               mf_w.l(depilogue.o)
-    0x08000bf8   0x000000de   Code   RO         4939    .text               mf_w.l(ddiv.o)
-    0x08000cd6   0x00000018   Code   RO         4941    .text               mf_w.l(dfltul.o)
-    0x08000cee   0x00000030   Code   RO         4943    .text               mf_w.l(dfixul.o)
+    0x080007fc   0x00000030   Code   RO         4950    .text               mf_w.l(cdcmple.o)
+    0x0800082c   0x00000030   Code   RO         4952    .text               mf_w.l(cdrcmple.o)
+    0x0800085c   0x00000038   Code   RO         4954    .text               mf_w.l(d2f.o)
+    0x08000894   0x0000002c   Code   RO         4975    .text               mc_w.l(uidiv.o)
+    0x080008c0   0x00000062   Code   RO         4977    .text               mc_w.l(uldiv.o)
+    0x08000922   0x0000001e   Code   RO         4979    .text               mc_w.l(llshl.o)
+    0x08000940   0x00000020   Code   RO         4981    .text               mc_w.l(llushr.o)
+    0x08000960   0x00000024   Code   RO         4983    .text               mc_w.l(llsshr.o)
+    0x08000984   0x000000e4   Code   RO         4985    .text               mc_w.l(strerror.o)
+    0x08000a68   0x00000028   Code   RO         4996    .text               mc_w.l(scanf_char.o)
+    0x08000a90   0x00000040   Code   RO         4998    .text               mc_w.l(_sgetc.o)
+    0x08000ad0   0x00000000   Code   RO         5002    .text               mc_w.l(iusefp.o)
+    0x08000ad0   0x0000006e   Code   RO         5003    .text               mf_w.l(fepilogue.o)
+    0x08000b3e   0x000000ba   Code   RO         5005    .text               mf_w.l(depilogue.o)
+    0x08000bf8   0x000000de   Code   RO         5007    .text               mf_w.l(ddiv.o)
+    0x08000cd6   0x00000018   Code   RO         5009    .text               mf_w.l(dfltul.o)
+    0x08000cee   0x00000030   Code   RO         5011    .text               mf_w.l(dfixul.o)
     0x08000d1e   0x00000002   PAD
-    0x08000d20   0x00000024   Code   RO         4945    .text               mc_w.l(init.o)
-    0x08000d44   0x0000000a   Code   RO         4947    .text               mc_w.l(isspace_c.o)
+    0x08000d20   0x00000024   Code   RO         5013    .text               mc_w.l(init.o)
+    0x08000d44   0x0000000a   Code   RO         5015    .text               mc_w.l(isspace_c.o)
     0x08000d4e   0x00000002   PAD
-    0x08000d50   0x0000032c   Code   RO         4949    .text               mc_w.l(_scanf.o)
-    0x0800107c   0x00000028   Code   RO         4951    .text               mc_w.l(ctype_c.o)
+    0x08000d50   0x0000032c   Code   RO         5017    .text               mc_w.l(_scanf.o)
+    0x0800107c   0x00000028   Code   RO         5019    .text               mc_w.l(ctype_c.o)
     0x080010a4   0x00000004   Code   RO          130    i.BusFault_Handler  stm32f10x_it.o
     0x080010a8   0x0000002c   Code   RO         3329    i.CLR_Buf2          gsm_code.o
     0x080010d4   0x00000002   Code   RO          131    i.DebugMon_Handler  stm32f10x_it.o
@@ -2410,88 +2439,88 @@ Memory Map of the image
     0x08001e3e   0x00000008   Code   RO         2947    i.USART_SendData    stm32f10x_usart.o
     0x08001e46   0x00000004   Code   RO          138    i.UsageFault_Handler  stm32f10x_it.o
     0x08001e4a   0x00000002   PAD
-    0x08001e4c   0x00000020   Code   RO         4810    i.__0printf         mc_w.l(printfa.o)
-    0x08001e6c   0x00000028   Code   RO         4812    i.__0sprintf        mc_w.l(printfa.o)
-    0x08001e94   0x00000008   Code   RO         4921    i.__aeabi_errno_addr  mc_w.l(errno.o)
+    0x08001e4c   0x00000020   Code   RO         4878    i.__0printf         mc_w.l(printfa.o)
+    0x08001e6c   0x00000028   Code   RO         4880    i.__0sprintf        mc_w.l(printfa.o)
+    0x08001e94   0x00000008   Code   RO         4989    i.__aeabi_errno_addr  mc_w.l(errno.o)
     0x08001e9c   0x00000064   Code   RO         3586    i.__compages_head   qdy_interface.o
     0x08001f00   0x00000018   Code   RO         3587    i.__crc             qdy_interface.o
-    0x08001f18   0x0000005c   Code   RO         4842    i.__free$realloc    mc_w.l(mallocr.o)
-    0x08001f74   0x00000050   Code   RO         4843    i.__malloc$realloc  mc_w.l(mallocr.o)
+    0x08001f18   0x0000005c   Code   RO         4910    i.__free$realloc    mc_w.l(mallocr.o)
+    0x08001f74   0x00000050   Code   RO         4911    i.__malloc$realloc  mc_w.l(mallocr.o)
     0x08001fc4   0x00000080   Code   RO         3588    i.__qdy_recv_data   qdy_interface.o
-    0x08002044   0x0000000e   Code   RO         4956    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08002052   0x00000002   Code   RO         4957    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08002054   0x0000000e   Code   RO         4958    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08002044   0x0000000e   Code   RO         5024    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08002052   0x00000002   Code   RO         5025    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08002054   0x0000000e   Code   RO         5026    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x08002062   0x00000002   PAD
-    0x08002064   0x00000164   Code   RO         4817    i._fp_digits        mc_w.l(printfa.o)
-    0x080021c8   0x0000000e   Code   RO         4870    i._is_digit         mc_w.l(scanf_fp.o)
+    0x08002064   0x00000164   Code   RO         4885    i._fp_digits        mc_w.l(printfa.o)
+    0x080021c8   0x0000000e   Code   RO         4938    i._is_digit         mc_w.l(scanf_fp.o)
     0x080021d6   0x00000002   PAD
-    0x080021d8   0x000006dc   Code   RO         4818    i._printf_core      mc_w.l(printfa.o)
-    0x080028b4   0x00000024   Code   RO         4819    i._printf_post_padding  mc_w.l(printfa.o)
-    0x080028d8   0x0000002e   Code   RO         4820    i._printf_pre_padding  mc_w.l(printfa.o)
-    0x08002906   0x0000000a   Code   RO         4822    i._sputc            mc_w.l(printfa.o)
-    0x08002910   0x0000002e   Code   RO         3692    i.add_item_to_array  cjson.o
-    0x0800293e   0x00000076   Code   RO         3693    i.add_item_to_object  cjson.o
-    0x080029b4   0x0000003c   Code   RO         3704    i.cJSON_AddNumberToObject  cjson.o
-    0x080029f0   0x00000064   Code   RO         3718    i.cJSON_CreateNumber  cjson.o
-    0x08002a54   0x00000018   Code   RO         3719    i.cJSON_CreateObject  cjson.o
-    0x08002a6c   0x00000058   Code   RO         3726    i.cJSON_Delete      cjson.o
-    0x08002ac4   0x0000001a   Code   RO         3755    i.cJSON_New_Item    cjson.o
+    0x080021d8   0x000006dc   Code   RO         4886    i._printf_core      mc_w.l(printfa.o)
+    0x080028b4   0x00000024   Code   RO         4887    i._printf_post_padding  mc_w.l(printfa.o)
+    0x080028d8   0x0000002e   Code   RO         4888    i._printf_pre_padding  mc_w.l(printfa.o)
+    0x08002906   0x0000000a   Code   RO         4890    i._sputc            mc_w.l(printfa.o)
+    0x08002910   0x0000002e   Code   RO         3991    i.add_item_to_array  cjson.o
+    0x0800293e   0x00000076   Code   RO         3992    i.add_item_to_object  cjson.o
+    0x080029b4   0x0000003c   Code   RO         4003    i.cJSON_AddNumberToObject  cjson.o
+    0x080029f0   0x00000064   Code   RO         4017    i.cJSON_CreateNumber  cjson.o
+    0x08002a54   0x00000018   Code   RO         4018    i.cJSON_CreateObject  cjson.o
+    0x08002a6c   0x00000058   Code   RO         4025    i.cJSON_Delete      cjson.o
+    0x08002ac4   0x0000001a   Code   RO         4054    i.cJSON_New_Item    cjson.o
     0x08002ade   0x00000002   PAD
-    0x08002ae0   0x00000014   Code   RO         3761    i.cJSON_PrintUnformatted  cjson.o
-    0x08002af4   0x00000038   Code   RO         3770    i.cJSON_strdup      cjson.o
-    0x08002b2c   0x00000002   Code   RO         3772    i.cast_away_const   cjson.o
+    0x08002ae0   0x00000014   Code   RO         4060    i.cJSON_PrintUnformatted  cjson.o
+    0x08002af4   0x00000038   Code   RO         4069    i.cJSON_strdup      cjson.o
+    0x08002b2c   0x00000002   Code   RO         4071    i.cast_away_const   cjson.o
     0x08002b2e   0x00000006   Code   RO         3589    i.check_head_crc    qdy_interface.o
     0x08002b34   0x00000014   Code   RO         3282    i.clean_delay_uart  gsm_base.o
     0x08002b48   0x00000088   Code   RO         3512    i.client_main       client_demo.o
-    0x08002bd0   0x0000003c   Code   RO         3773    i.compare_double    cjson.o
+    0x08002bd0   0x0000003c   Code   RO         4072    i.compare_double    cjson.o
     0x08002c0c   0x00000024   Code   RO         3590    i.dump_data         qdy_interface.o
-    0x08002c30   0x000000ba   Code   RO         3775    i.ensure            cjson.o
+    0x08002c30   0x000000ba   Code   RO         4074    i.ensure            cjson.o
     0x08002cea   0x0000001a   Code   RO         3398    i.esp8266_tcp_recv  tcp_base.o
     0x08002d04   0x00000010   Code   RO         3399    i.esp8266_tcp_send  tcp_base.o
     0x08002d14   0x00000024   Code   RO         3220    i.fputc             usart.o
-    0x08002d38   0x00000018   Code   RO         4902    i.fputs             mc_w.l(fputs.o)
-    0x08002d50   0x00000004   Code   RO         3777    i.get_decimal_point  cjson.o
+    0x08002d38   0x00000018   Code   RO         4970    i.fputs             mc_w.l(fputs.o)
+    0x08002d50   0x00000004   Code   RO         4076    i.get_decimal_point  cjson.o
     0x08002d54   0x00000044   Code   RO         3513    i.get_humidity      client_demo.o
     0x08002d98   0x00000044   Code   RO         3514    i.get_temperature   client_demo.o
     0x08002ddc   0x00000014   Code   RO         3283    i.gsm_base_send     gsm_base.o
     0x08002df0   0x00000002   Code   RO         3591    i.hexdump           qdy_interface.o
     0x08002df2   0x00000002   PAD
-    0x08002df4   0x00000050   Code   RO         4844    i.internal_alloc    mc_w.l(mallocr.o)
+    0x08002df4   0x00000050   Code   RO         4912    i.internal_alloc    mc_w.l(mallocr.o)
     0x08002e44   0x000000fc   Code   RO         3515    i.login             client_demo.o
     0x08002f40   0x00000164   Code   RO            1    i.main              main.o
     0x080030a4   0x00000012   Code   RO         3516    i.my_send           client_demo.o
     0x080030b6   0x00000002   PAD
-    0x080030b8   0x00000040   Code   RO         4553    i.perror            mc_w.l(perror.o)
-    0x080030f8   0x000000b2   Code   RO         3786    i.print             cjson.o
-    0x080031aa   0x000000b2   Code   RO         3787    i.print_array       cjson.o
-    0x0800325c   0x00000100   Code   RO         3788    i.print_number      cjson.o
-    0x0800335c   0x00000174   Code   RO         3789    i.print_object      cjson.o
-    0x080034d0   0x00000010   Code   RO         3790    i.print_string      cjson.o
-    0x080034e0   0x00000174   Code   RO         3791    i.print_string_ptr  cjson.o
-    0x08003654   0x00000104   Code   RO         3792    i.print_value       cjson.o
+    0x080030b8   0x00000040   Code   RO         4621    i.perror            mc_w.l(perror.o)
+    0x080030f8   0x000000b2   Code   RO         4085    i.print             cjson.o
+    0x080031aa   0x000000b2   Code   RO         4086    i.print_array       cjson.o
+    0x0800325c   0x00000100   Code   RO         4087    i.print_number      cjson.o
+    0x0800335c   0x00000174   Code   RO         4088    i.print_object      cjson.o
+    0x080034d0   0x00000010   Code   RO         4089    i.print_string      cjson.o
+    0x080034e0   0x00000174   Code   RO         4090    i.print_string_ptr  cjson.o
+    0x08003654   0x00000104   Code   RO         4091    i.print_value       cjson.o
     0x08003758   0x00000058   Code   RO         3593    i.qdy_recv_data     qdy_interface.o
     0x080037b0   0x00000084   Code   RO         3574    i.qdy_resolve_recv_data  qdy_aff.o
     0x08003834   0x0000009c   Code   RO         3594    i.qdy_send_data     qdy_interface.o
     0x080038d0   0x0000009c   Code   RO         3595    i.qdy_send_json_data  qdy_interface.o
     0x0800396c   0x00000040   Code   RO         3596    i.qdy_sync_server   qdy_interface.o
     0x080039ac   0x0000007c   Code   RO         3517    i.qdy_upload        client_demo.o
-    0x08003a28   0x0000006c   Code   RO         4845    i.realloc           mc_w.l(mallocr.o)
+    0x08003a28   0x0000006c   Code   RO         4913    i.realloc           mc_w.l(mallocr.o)
     0x08003a94   0x00000068   Code   RO         3284    i.recv_gsm_data     gsm_base.o
     0x08003afc   0x0000003c   Code   RO         3597    i.set_customer      qdy_interface.o
     0x08003b38   0x00000038   Code   RO         3598    i.set_name          qdy_interface.o
     0x08003b70   0x0000000c   Code   RO         3599    i.set_net_send      qdy_interface.o
-    0x08003b7c   0x00000006   Code   RO         3797    i.suffix_object     cjson.o
+    0x08003b7c   0x00000006   Code   RO         4096    i.suffix_object     cjson.o
     0x08003b82   0x00000002   PAD
     0x08003b84   0x00000034   Code   RO         3338    i.uart_send_data    gsm_code.o
     0x08003bb8   0x00000014   Code   RO         3601    i.update_head       qdy_interface.o
-    0x08003bcc   0x00000024   Code   RO         3798    i.update_offset     cjson.o
-    0x08003bf0   0x00000040   Data   RO         4952    .constdata          mc_w.l(ctype_c.o)
+    0x08003bcc   0x00000024   Code   RO         4097    i.update_offset     cjson.o
+    0x08003bf0   0x00000040   Data   RO         5020    .constdata          mc_w.l(ctype_c.o)
     0x08003c30   0x00000006   Data   RO         3519    .conststring        client_demo.o
     0x08003c36   0x00000002   PAD
-    0x08003c38   0x00000020   Data   RO         4954    Region$$Table       anon$$obj.o
+    0x08003c38   0x00000020   Data   RO         5022    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00001a58, Max: 0x00005000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00002458, Max: 0x00005000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -2504,18 +2533,18 @@ Memory Map of the image
     0x2000004c   0x00000004   Data   RW         3464    .data               systick.o
     0x20000050   0x0000000c   Data   RW         3520    .data               client_demo.o
     0x2000005c   0x0000000c   Data   RW         3603    .data               qdy_interface.o
-    0x20000068   0x00000014   Data   RW         3801    .data               cjson.o
-    0x2000007c   0x00000004   Data   RW         4906    .data               mc_w.l(stderr.o)
-    0x20000080   0x00000004   Data   RW         4919    .data               mc_w.l(mvars.o)
-    0x20000084   0x00000004   Data   RW         4920    .data               mc_w.l(mvars.o)
-    0x20000088   0x00000004   Data   RW         4924    .data               mc_w.l(errno.o)
+    0x20000068   0x00000014   Data   RW         4100    .data               cjson.o
+    0x2000007c   0x00000004   Data   RW         4974    .data               mc_w.l(stderr.o)
+    0x20000080   0x00000004   Data   RW         4987    .data               mc_w.l(mvars.o)
+    0x20000084   0x00000004   Data   RW         4988    .data               mc_w.l(mvars.o)
+    0x20000088   0x00000004   Data   RW         4992    .data               mc_w.l(errno.o)
     0x2000008c   0x000007d0   Zero   RW            2    .bss                main.o
     0x2000085c   0x000007d0   Zero   RW         3286    .bss                gsm_base.o
     0x2000102c   0x00000400   Zero   RW         3518    .bss                client_demo.o
     0x2000142c   0x00000028   Zero   RW         3602    .bss                qdy_interface.o
     0x20001454   0x00000004   PAD
-    0x20001458   0x00000200   Zero   RW         3172    HEAP                startup_stm32f10x_hd.o
-    0x20001658   0x00000400   Zero   RW         3171    STACK               startup_stm32f10x_hd.o
+    0x20001458   0x00000c00   Zero   RW         3172    HEAP                startup_stm32f10x_hd.o
+    0x20002058   0x00000400   Zero   RW         3171    STACK               startup_stm32f10x_hd.o
 
 
 ==============================================================================
@@ -2534,7 +2563,7 @@ Image component sizes
        112         12          0          0          0        988   misc.o
        132         62          0          0          0       1164   qdy_aff.o
        908        152          0         12         40       9875   qdy_interface.o
-        36          8        304          0       1536        808   startup_stm32f10x_hd.o
+        36          8        304          0       4096        808   startup_stm32f10x_hd.o
        278          0          0          0          0       1916   stm32f10x_gpio.o
         32          0          0          0          0       3826   stm32f10x_it.o
        340         44          0         20          0       5508   stm32f10x_rcc.o
@@ -2547,7 +2576,7 @@ Image component sizes
        530         42          0          8          0       6163   usart.o
 
     ----------------------------------------------------------------------
-      8340       1178        344        124       6604     351855   Object Totals
+      8340       1178        344        124       9164     351855   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         20          0          2          3          4          0   (incl. Padding)
 
@@ -2625,14 +2654,14 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     15040       1572        408        140       6604     348627   Grand Totals
-     15040       1572        408        140       6604     348627   ELF Image Totals
+     15040       1572        408        140       9164     348627   Grand Totals
+     15040       1572        408        140       9164     348627   ELF Image Totals
      15040       1572        408        140          0          0   ROM Totals
 
 ==============================================================================
 
     Total RO  Size (Code + RO Data)                15448 (  15.09kB)
-    Total RW  Size (RW Data + ZI Data)              6744 (   6.59kB)
+    Total RW  Size (RW Data + ZI Data)              9304 (   9.09kB)
     Total ROM Size (Code + RO Data + RW Data)      15588 (  15.22kB)
 
 ==============================================================================
